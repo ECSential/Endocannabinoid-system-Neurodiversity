@@ -379,7 +379,7 @@ function renderDomain(animate){
   var prevDis=currentDomain===0?'disabled':'';
   var nextLabel=currentDomain===domains.length-1?t.finish:t.next;
 
-  var html='<div class="'+(animate!==false?'result-wrap':''')+'">';
+  var html='<div class="'+(animate!==false?'result-wrap':'')+'">';
   html+='<div class="dom-header">';
   html+='<div class="dom-badge"><div class="dom-num">'+(currentDomain+1)+'</div>'+t.prog(currentDomain)+'</div>';
   html+='<div class="dom-title">'+dl.name+'</div>';
